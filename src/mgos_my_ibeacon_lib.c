@@ -230,7 +230,7 @@ int ibeacon_start_adv()
         return 1;
     }
 
-    ret = esp_bt_controller_enable(ESP_BT_MODE_BTDM);
+    ret = esp_bt_controller_enable(ESP_BT_MODE_BLE);
     if (ret) {
         ESP_LOGE(GATTS_TAG, "%s enable controller failed\n", __func__);
         return 1;
