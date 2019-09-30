@@ -1,4 +1,4 @@
-#include "mgos_my_ibeacon_lib.h"
+#include "mgos_esp32_ibeacon_lib.h"
 
 #include "esp_bt.h"
 
